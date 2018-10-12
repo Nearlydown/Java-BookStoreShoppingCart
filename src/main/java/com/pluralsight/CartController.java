@@ -56,6 +56,7 @@ public class CartController extends HttpServlet {
 			e.printStackTrace();
 		}
 
+		
 		response.sendRedirect("../ShoppingCart.jsp");
 	}
 
